@@ -16,20 +16,24 @@ void main(){
 var marks=70;
 if(marks>=90 && marks<100){
 print("A + grade");
-}}
-else if(marks >= 80 && marks<90){
+}
+else if(marks>= 80 && marks<90){
 
 print("B grade");
 }
-else if(marks >= 80 && marks<90){
+else if(marks >= 70 && marks<0){
 
-print("B grade");
+print("C grade");
 }
 else if(marks >= 80 && marks<90){
 
-print("B grade");
+print("D grade");
 }
 else if(marks >= 80 && marks<90){
 
-print("B grade");
+print("E grade");
+}
+else{
+  print('You have failed');
+}
 }
