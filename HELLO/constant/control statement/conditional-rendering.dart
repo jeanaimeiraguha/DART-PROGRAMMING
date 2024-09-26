@@ -10,7 +10,7 @@ void main(){
 */
 //go using null
 void main(){
-String name=null;
+String name="Iraguha";
 String nameToprint=name ?? "Guest";
 print("nameToprint");
 }
