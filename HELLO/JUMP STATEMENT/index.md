@@ -7,6 +7,9 @@ break Statement
 The break statement is used to exit a loop (like for, while, or do-while) or a switch case prematurely. It stops the loop immediately and transfers control to the code that follows the loop.
 
 
+
+
+
 continue Statement
 The continue statement is used to skip the remaining code inside a loop for the current iteration and jump to the next iteration. It doesn't exit the loop but skips the rest of the code for that cycle.
 
