@@ -1,8 +1,12 @@
 void main() {
-  for (int i = 1; i <= 5; i++) {
+  for(int i = 1; i <= 5; i++) {
     if (i == 3) {
-      print("Skipping number 3");
-      continue; // Skip the rest of the code when i is 3
+        break;
+      //print("Skipping number 3");
+      //continue;
+
+      
+       // Skip the rest of the code when i is 3
     }
     print("Number: $i");
   }

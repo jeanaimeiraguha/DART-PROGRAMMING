@@ -1,7 +1,8 @@
 
 void main() {
-  for (int i = 1; i <= 10; i++) {
+  for(int i = 1; i <= 10; i++) {
     print("Number: $i");
+    // 1 ,2,3
     if (i == 3) {
       print("Breaking the loop.");
       break; // Exit the loop when i is 3
