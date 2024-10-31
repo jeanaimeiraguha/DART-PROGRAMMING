@@ -6,3 +6,13 @@ void main() {
     print(names);
   });
   
+ // Foreach with integers as datatype
+ print("Foreach with integers as datatype");
+  Set<int> numbers ={1,2,3};
+  numbers.forEach((numbers){
+print(numbers);
+  });
+
+ 
+}
+
