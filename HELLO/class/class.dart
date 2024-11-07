@@ -3,7 +3,7 @@ class Vehicles{
    var name;
   var category;
   void display(){
-    print("This is $name with is used $category with color of $color");
+    print("This is $name which is used $category with color of $color");
   }
 }
 class Volvo extends Vehicles{
