@@ -12,5 +12,9 @@ void Hoho(){
 }
 }
 void main(){
-  
+  var D= new Vehicles();
+  D.display();
+  D.name="Tax";
+  D.color="Red";
+
 }
