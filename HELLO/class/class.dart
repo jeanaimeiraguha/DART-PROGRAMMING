@@ -8,6 +8,9 @@ class Vehicles{
 }
 class Volvo extends Vehicles{
 void Hoho(){
-  
+  print("This $name has also $color");
 }
+}
+void main(){
+  
 }
