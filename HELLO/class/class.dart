@@ -6,3 +6,8 @@ class Vehicles{
     print("This is $name with in $category with color of $color");
   }
 }
+class Volvo extends Vehicles{
+void Hoho(){
+  
+}
+}
