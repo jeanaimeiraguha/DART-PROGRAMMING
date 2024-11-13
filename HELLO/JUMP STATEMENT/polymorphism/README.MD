@@ -1,5 +1,5 @@
-Explanation
--------------------
+
+-------------------Explanation-------------------------------------
 Superclass Vehicle: This class has a single method move() that prints a general message: "The vehicle is moving".
 
 Subclass Car: Extends Vehicle and overrides move() with its specific implementation. When move() is called on an instance of Car, it prints: "The car is driving on the road".
