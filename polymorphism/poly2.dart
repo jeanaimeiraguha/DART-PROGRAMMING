@@ -5,11 +5,13 @@ class Animals{
   
 }
 class Z extends Animals{
+  @override
   void  demo(){
     print("This is Zebra");
   }
 }
 class H extends Animals{
+  @override
   void demo(){
     print("This is hyenna");
   }
@@ -17,10 +19,10 @@ class H extends Animals{
 
 
 void main(){
-  Animals Animals;
-   Animals = Animals();
-  Animals.demo();
-  Animals= Z();
-  Animals=H();
-  Animals.demo();
+  Animals animal;
+    animal = Animals();
+  animal.demo();
+animal= Z();
+  animal=H();
+  animal.demo();
 }
