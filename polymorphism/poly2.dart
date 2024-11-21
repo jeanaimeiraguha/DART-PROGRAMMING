@@ -23,6 +23,7 @@ void main(){
     animal = Animals();
   animal.demo();
 animal= Z();
+ animal.demo();
   animal=H();
   animal.demo();
 }
